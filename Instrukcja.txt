@@ -10,3 +10,4 @@ Algorytm działania programu w dużym uproszczeniu:
 3. Najpierw powiększany lub pomniejszany jest rozmiar tabeli głównej (w zależności od tego, jaką wybraliśmy komendę oraz od tego, która w kolejności tabela (czy pierwsza czy druga) została tabelą główną).
 4. Korzystając z wartości z tabeli pobocznej tworzona jest tablica numpy - jej rozmiar i wartości są zależne od tego, jaka komenda została wybrana (np. jeśli użytkownik wybrał komendę "inner join" to tablica numpy może zostać zmniejszona o niepotrzebne wiersze).
 5. Na końcu wartości z tablicy numpy zostają w odpowiedni sposób przepisane do pustych kolumn z tablicy głównej.
+
